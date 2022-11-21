@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+	<Port name="HTTP/1.1" protocol="HTTP">8049</Port>
+<PathMapping local="/appstarter" module="appstarter" remote="C:\Users\kjun9\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\htdocs\appstarter"/></Server>
