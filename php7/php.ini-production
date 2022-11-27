@@ -892,7 +892,7 @@ default_socket_timeout = 60
 ;
 ; For example:
 ;
-;   extension=mysqli
+   extension=mysqli
 ;
 ; When the extension library to load is not located in the default extension
 ; directory, You may specify an absolute path to the library file:
@@ -947,6 +947,7 @@ default_socket_timeout = 60
 ;extension=tidy
 ;extension=xmlrpc
 ;extension=xsl
+
 
 ;;;;;;;;;;;;;;;;;;;
 ; Module Settings ;
@@ -1945,3 +1946,4 @@ ldap.max_links = -1
 
 ; List of headers files to preload, wildcard patterns allowed.
 ;ffi.preload=
+extension=C:\php7\ext\php_mysqli.dll
